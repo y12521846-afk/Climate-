@@ -1,0 +1,79 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: #4CAF50;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* Navigation */
+nav {
+  margin: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #4CAF50;
+}
+
+/* Main content */
+main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Card style */
+.card {
+  background: #fff;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  background: #333;
+  color: #fff;
+  border-radius: 8px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
+}
